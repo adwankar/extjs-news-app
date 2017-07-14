@@ -1,0 +1,66 @@
+{
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "designer|userClassName": "HNStore",
+        "model": "HNModel",
+        "storeId": "HNStore"
+    },
+    "configAlternates": {
+        "autoLoad": "boolean",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
+    "name": "MyJsonPStore",
+    "designerId": "f9df98cd-221e-4f46-8aa7-21b0b7da654e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "limitParam": "",
+                "noCache": false,
+                "pageParam": "",
+                "startParam": "",
+                "url": "https://hn.algolia.com/api/v1/search?tags=front_page"
+            },
+            "configAlternates": {
+                "limitParam": "string",
+                "noCache": "boolean",
+                "pageParam": "string",
+                "startParam": "string",
+                "url": "string"
+            },
+            "name": "MyJsonPProxy",
+            "designerId": "edd12b82-1754-4944-8331-a227f4ed7a16",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "hits"
+                    },
+                    "configAlternates": {
+                        "rootProperty": "string"
+                    },
+                    "name": "MyJsonReader",
+                    "designerId": "271f3375-7acd-4ac0-88cd-456ff9bb7feb"
+                }
+            ]
+        }
+    ]
+}

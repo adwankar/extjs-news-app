@@ -1,0 +1,58 @@
+{
+    "name": "newsapp",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.2.1.29",
+            "frameworkVersion": "6.2.1.167"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:52617/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Desktop (Auto Expand)",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            },
+            "viewportOrientation": "portrait"
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.1.2",
+    "xdsBuild": 156,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "modern62",
+    "viewOrderMap": {
+        "view": [
+            "200ec9e4-fc89-49fa-bc47-51396c50db69",
+            "77e42ed3-fdf0-4b85-a8d9-8d7593718ae0",
+            "9dbb064c-f9da-4587-a842-96d3182b9f06",
+            "00db6532-d8ee-4144-84ca-2e70ee3cb10b",
+            "ae949554-735b-446f-8619-26988ba67992",
+            "1c4dd09d-9967-4e49-8a88-5d131aebdc95"
+        ],
+        "store": [
+            "f9df98cd-221e-4f46-8aa7-21b0b7da654e"
+        ],
+        "controller": [],
+        "model": [
+            "e411e5b9-d136-401c-9dbd-0ee2b7e23253"
+        ],
+        "resource": [
+            "2a11be2b-fa36-4daa-9caf-1fd66a96d4cb",
+            "10bd7048-6f27-4dbb-b2ab-4d5faf53203f"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

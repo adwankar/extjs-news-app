@@ -1,0 +1,59 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "activeItem": 1,
+        "designer|initialView": true,
+        "designer|userAlias": "newsapp",
+        "designer|userClassName": "NewsApp"
+    },
+    "configAlternates": {
+        "activeItem": "number",
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string"
+    },
+    "name": "MyTabPanel",
+    "designerId": "200ec9e4-fc89-49fa-bc47-51396c50db69",
+    "viewControllerInstanceId": "9dbb064c-f9da-4587-a842-96d3182b9f06",
+    "viewModelInstanceId": "77e42ed3-fdf0-4b85-a8d9-8d7593718ae0",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Hacker News"
+            },
+            "configAlternates": {
+                "title": "string"
+            },
+            "name": "hngrid",
+            "designerId": "ea131b70-099c-4774-b1d1-2c9fa6d0c35d",
+            "masterInstanceId": "00db6532-d8ee-4144-84ca-2e70ee3cb10b"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Reddit"
+            },
+            "configAlternates": {
+                "title": "string"
+            },
+            "name": "MyContainer1",
+            "designerId": "0844e9d8-8fab-4819-9bf2-3874e329a33a"
+        }
+    ]
+}

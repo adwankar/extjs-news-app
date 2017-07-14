@@ -1,0 +1,140 @@
+{
+    "type": "Ext.grid.Grid",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "hngrid",
+        "designer|userClassName": "HNGrid",
+        "height": "100%",
+        "store": "HNStore",
+        "width": "100%"
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "store": "store",
+        "width": "auto"
+    },
+    "name": "MyGrid",
+    "designerId": "00db6532-d8ee-4144-84ca-2e70ee3cb10b",
+    "viewControllerInstanceId": "1c4dd09d-9967-4e49-8a88-5d131aebdc95",
+    "viewModelInstanceId": "ae949554-735b-446f-8619-26988ba67992",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cell": [
+                    "{",
+                    "          encodeHtml: false",
+                    "       }"
+                ],
+                "dataIndex": "title",
+                "docked": null,
+                "flex": "1",
+                "text": "Title",
+                "width": null
+            },
+            "configAlternates": {
+                "cell": "object",
+                "dataIndex": "datafield",
+                "docked": "string",
+                "flex": "string",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyColumn",
+            "designerId": "1a4b695b-6c23-418c-980f-700a8aaef468",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "flex",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "value",
+                            "record",
+                            "dataIndex",
+                            "cell",
+                            "column"
+                        ],
+                        "fn": "renderer",
+                        "implHandler": [
+                            "",
+                            "return '<a target=\"_blank\" href=\"'+record.get('url') + '\">' + value + '</a>';"
+                        ]
+                    },
+                    "configAlternates": {
+                        "designer|params": "typedarray",
+                        "fn": "string",
+                        "implHandler": "code"
+                    },
+                    "name": "renderer",
+                    "designerId": "aca8afe3-89c4-4139-b390-7d1bd7b199d8"
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "author",
+                "docked": null,
+                "text": "Author",
+                "width": null
+            },
+            "configAlternates": {
+                "dataIndex": "datafield",
+                "docked": "string",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyColumn1",
+            "designerId": "072de635-76ad-4ce7-bc5c-f8aa1c123093"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "points",
+                "docked": null,
+                "text": "Points",
+                "width": null
+            },
+            "configAlternates": {
+                "dataIndex": "datafield",
+                "docked": "string",
+                "text": "string",
+                "width": "auto"
+            },
+            "name": "MyColumn2",
+            "designerId": "dff8e729-230b-4d7b-80ce-20b0a558dbf4"
+        }
+    ]
+}
